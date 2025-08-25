@@ -1,0 +1,37 @@
+[
+    {
+        "Produto": "Smart TV 55",
+        "Categoria": "Eletrônicos",
+        "Quantidade": 3,
+        "Venda": 2800,
+        "Data": "2023-02-04"
+    },
+    {
+        "Produto": "Cadeira Gamer",
+        "Categoria": "Móveis",
+        "Quantidade": 5,
+        "Venda": 900,
+        "Data": "2023-02-04"
+    },
+    {
+        "Produto": "Calça Jeans",
+        "Categoria": "Roupas",
+        "Quantidade": 18,
+        "Venda": 150,
+        "Data": "2023-02-04"
+    },
+    {
+        "Produto": "Livro Machine Learning",
+        "Categoria": "Livros",
+        "Quantidade": 8,
+        "Venda": 95,
+        "Data": "2023-02-04"
+    },
+    {
+        "Produto": "Air Fryer",
+        "Categoria": "Eletrodomésticos",
+        "Quantidade": 4,
+        "Venda": 600,
+        "Data": "2023-02-04"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "Produto": "Smartphone X",
+        "Categoria": "Eletrônicos",
+        "Quantidade": 8,
+        "Venda": 1200,
+        "Data": "2023-02-01"
+    },
+    {
+        "Produto": "Fone Bluetooth",
+        "Categoria": "Eletrônicos",
+        "Quantidade": 15,
+        "Venda": 80,
+        "Data": "2023-02-01"
+    },
+    {
+        "Produto": "Camiseta Básica",
+        "Categoria": "Roupas",
+        "Quantidade": 20,
+        "Venda": 25,
+        "Data": "2023-02-01"
+    },
+    {
+        "Produto": "Livro Python",
+        "Categoria": "Livros",
+        "Quantidade": 12,
+        "Venda": 45,
+        "Data": "2023-02-01"
+    }
+]

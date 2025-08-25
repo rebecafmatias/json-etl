@@ -1,0 +1,37 @@
+[
+    {
+        "Produto": "Sofá Retrátil",
+        "Categoria": "Móveis",
+        "Quantidade": 1,
+        "Venda": 2500,
+        "Data": "2023-02-03"
+    },
+    {
+        "Produto": "Mesa Escritório",
+        "Categoria": "Móveis",
+        "Quantidade": 2,
+        "Venda": 850,
+        "Data": "2023-02-03"
+    },
+    {
+        "Produto": "Jaqueta Jeans",
+        "Categoria": "Roupas",
+        "Quantidade": 10,
+        "Venda": 180,
+        "Data": "2023-02-03"
+    },
+    {
+        "Produto": "Headset Gamer",
+        "Categoria": "Eletrônicos",
+        "Quantidade": 4,
+        "Venda": 400,
+        "Data": "2023-02-03"
+    },
+    {
+        "Produto": "Livro Inteligência Artificial",
+        "Categoria": "Livros",
+        "Quantidade": 6,
+        "Venda": 120,
+        "Data": "2023-02-03"
+    }
+]

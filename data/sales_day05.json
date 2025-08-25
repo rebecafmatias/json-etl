@@ -1,0 +1,37 @@
+[
+    {
+        "Produto": "Notebook Pro",
+        "Categoria": "Eletrônicos",
+        "Quantidade": 5,
+        "Venda": 4500,
+        "Data": "2023-02-05"
+    },
+    {
+        "Produto": "Impressora Multifuncional",
+        "Categoria": "Eletrônicos",
+        "Quantidade": 3,
+        "Venda": 700,
+        "Data": "2023-02-05"
+    },
+    {
+        "Produto": "Vestido Verão",
+        "Categoria": "Roupas",
+        "Quantidade": 15,
+        "Venda": 120,
+        "Data": "2023-02-05"
+    },
+    {
+        "Produto": "Guarda-Roupa",
+        "Categoria": "Móveis",
+        "Quantidade": 2,
+        "Venda": 1800,
+        "Data": "2023-02-05"
+    },
+    {
+        "Produto": "Livro Deep Learning",
+        "Categoria": "Livros",
+        "Quantidade": 7,
+        "Venda": 150,
+        "Data": "2023-02-05"
+    }
+]

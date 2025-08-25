@@ -1,0 +1,37 @@
+[
+    {
+        "Produto": "Geladeira Frost",
+        "Categoria": "Eletrodomésticos",
+        "Quantidade": 2,
+        "Venda": 3200,
+        "Data": "2023-02-02"
+    },
+    {
+        "Produto": "Tênis Corrida",
+        "Categoria": "Roupas",
+        "Quantidade": 7,
+        "Venda": 250,
+        "Data": "2023-02-02"
+    },
+    {
+        "Produto": "Cafeteira Elétrica",
+        "Categoria": "Eletrodomésticos",
+        "Quantidade": 5,
+        "Venda": 200,
+        "Data": "2023-02-02"
+    },
+    {
+        "Produto": "Smartwatch Fit",
+        "Categoria": "Eletrônicos",
+        "Quantidade": 6,
+        "Venda": 600,
+        "Data": "2023-02-02"
+    },
+    {
+        "Produto": "Livro Data Science",
+        "Categoria": "Livros",
+        "Quantidade": 10,
+        "Venda": 70,
+        "Data": "2023-02-02"
+    }
+]
