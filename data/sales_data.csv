@@ -1,0 +1,25 @@
+Produto,Categoria,Quantidade,Venda,Data,total_sale
+Smartphone X,Eletrônicos,8,1200,2023-02-01,9600
+Fone Bluetooth,Eletrônicos,15,80,2023-02-01,1200
+Camiseta Básica,Roupas,20,25,2023-02-01,500
+Livro Python,Livros,12,45,2023-02-01,540
+Geladeira Frost,Eletrodomésticos,2,3200,2023-02-02,6400
+Tênis Corrida,Roupas,7,250,2023-02-02,1750
+Cafeteira Elétrica,Eletrodomésticos,5,200,2023-02-02,1000
+Smartwatch Fit,Eletrônicos,6,600,2023-02-02,3600
+Livro Data Science,Livros,10,70,2023-02-02,700
+Sofá Retrátil,Móveis,1,2500,2023-02-03,2500
+Mesa Escritório,Móveis,2,850,2023-02-03,1700
+Jaqueta Jeans,Roupas,10,180,2023-02-03,1800
+Headset Gamer,Eletrônicos,4,400,2023-02-03,1600
+Livro Inteligência Artificial,Livros,6,120,2023-02-03,720
+Smart TV 55,Eletrônicos,3,2800,2023-02-04,8400
+Cadeira Gamer,Móveis,5,900,2023-02-04,4500
+Calça Jeans,Roupas,18,150,2023-02-04,2700
+Livro Machine Learning,Livros,8,95,2023-02-04,760
+Air Fryer,Eletrodomésticos,4,600,2023-02-04,2400
+Notebook Pro,Eletrônicos,5,4500,2023-02-05,22500
+Impressora Multifuncional,Eletrônicos,3,700,2023-02-05,2100
+Vestido Verão,Roupas,15,120,2023-02-05,1800
+Guarda-Roupa,Móveis,2,1800,2023-02-05,3600
+Livro Deep Learning,Livros,7,150,2023-02-05,1050
