@@ -23,12 +23,9 @@ def read_json_files(directory_path: str) -> pd.DataFrame:
 value using unit price and quantity sold:"""
 
 
-def calculate_sales(
-    df_to_calculate_total_sales: pd.DataFrame, qty_column: int, price_column: int
-) -> pd.DataFrame:
+def calculate_sales(df_to_calculate_total_sales: pd.DataFrame) -> pd.DataFrame:
     df_to_calculate_total_sales["total_sale"] = (
-        df_to_calculate_total_sales[qty_column]
-        * df_to_calculate_total_sales[price_column]
+        df_to_calculate_total_sales["Quantidade"] * df_to_calculate_total_sales["Venda"]
     )
     return df_to_calculate_total_sales
 
@@ -45,12 +42,14 @@ def save_df_as_parquet(df_to_save: pd.DataFrame, path_to_save: str, file_type: s
         print("File type not found. It must be parquet or csv.")
 
 
-if __name__ == "__main__":
-    database_path = "../data"
-    path_to_save = "../data/sales_data"
-    file_type = "csv"
-    qty_column = "Quantidade"
-    unit_price = "Venda"
+"""Function to call everything"""
+
+
+def pipeline_calculate_sales_kpi(database_path: str, file_format: str):
     test_read_json_df = read_json_files(database_path)
-    total_sales_df = calculate_sales(test_read_json_df, qty_column, unit_price)
-    save_df_as_parquet(total_sales_df, path_to_save, file_type)
+    total_sales_df = calculate_sales(test_read_json_df)
+    save_df_as_parquet(total_sales_df, database_path + "/sales_data", file_format)
+
+
+if __name__ == "__main__":
+    pipeline_calculate_sales_kpi("../data", "parquet")
