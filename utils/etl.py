@@ -48,7 +48,7 @@ def save_df_as_parquet(df_to_save: pd.DataFrame, path_to_save: str, file_type: s
 def pipeline_calculate_sales_kpi(database_path: str, file_format: str):
     test_read_json_df = read_json_files(database_path)
     total_sales_df = calculate_sales(test_read_json_df)
-    save_df_as_parquet(total_sales_df, database_path + "/sales_data", file_format)
+    save_df_as_parquet(total_sales_df, str(database_path) + "/sales_data", file_format)
 
 
 if __name__ == "__main__":
