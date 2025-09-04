@@ -10,12 +10,16 @@ It is organized following a common Python project structure with separate folder
 etl-json/
 ├── src/
 │ ├── pipeline.py
+│ ├── __init__.py
 │ └── utils/
-│   ├── init.py
-│   └── etl.py
+│   ├── __init__.py
+│   ├── etl.py
+│   └── log.py
 ├── tests/
-│ ├── init.py
+│ ├── __init__.py
 │ └── test.py
+├── logs/
+│ └── logs_file.log
 ├── data/
 │ ├── sales_day01.json
 │ ├── sales_day02.json

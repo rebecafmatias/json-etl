@@ -1,0 +1,104 @@
+2025-09-03 22:54:24 | INFO     | log.py:24 - Chamando função 'pipeline_calculate_sales_kpi' com args (WindowsPath('C:/Users/rebec/Documents/estudos/jornada_de_dados/py/aula-08-etl-json-parquet/data'), 'parquet') e kwargs {}
+2025-09-03 22:54:24 | INFO     | log.py:24 - Chamando função 'read_json_files' com args (WindowsPath('C:/Users/rebec/Documents/estudos/jornada_de_dados/py/aula-08-etl-json-parquet/data'),) e kwargs {}
+2025-09-03 22:54:24 | INFO     | log.py:27 - Função 'read_json_files' retornou                           Produto         Categoria  Quantidade  Venda        Data
+0                    Smartphone X       Eletrônicos           8   1200  2023-02-01
+1                  Fone Bluetooth       Eletrônicos          15     80  2023-02-01
+2                 Camiseta Básica            Roupas          20     25  2023-02-01
+3                    Livro Python            Livros          12     45  2023-02-01
+4                 Geladeira Frost  Eletrodomésticos           2   3200  2023-02-02
+5                   Tênis Corrida            Roupas           7    250  2023-02-02
+6              Cafeteira Elétrica  Eletrodomésticos           5    200  2023-02-02
+7                  Smartwatch Fit       Eletrônicos           6    600  2023-02-02
+8              Livro Data Science            Livros          10     70  2023-02-02
+9                   Sofá Retrátil            Móveis           1   2500  2023-02-03
+10                Mesa Escritório            Móveis           2    850  2023-02-03
+11                  Jaqueta Jeans            Roupas          10    180  2023-02-03
+12                  Headset Gamer       Eletrônicos           4    400  2023-02-03
+13  Livro Inteligência Artificial            Livros           6    120  2023-02-03
+14                    Smart TV 55       Eletrônicos           3   2800  2023-02-04
+15                  Cadeira Gamer            Móveis           5    900  2023-02-04
+16                    Calça Jeans            Roupas          18    150  2023-02-04
+17         Livro Machine Learning            Livros           8     95  2023-02-04
+18                      Air Fryer  Eletrodomésticos           4    600  2023-02-04
+19                   Notebook Pro       Eletrônicos           5   4500  2023-02-05
+20      Impressora Multifuncional       Eletrônicos           3    700  2023-02-05
+21                  Vestido Verão            Roupas          15    120  2023-02-05
+22                   Guarda-Roupa            Móveis           2   1800  2023-02-05
+23            Livro Deep Learning            Livros           7    150  2023-02-05
+2025-09-03 22:54:24 | INFO     | log.py:24 - Chamando função 'calculate_sales' com args (                          Produto         Categoria  Quantidade  Venda        Data
+0                    Smartphone X       Eletrônicos           8   1200  2023-02-01
+1                  Fone Bluetooth       Eletrônicos          15     80  2023-02-01
+2                 Camiseta Básica            Roupas          20     25  2023-02-01
+3                    Livro Python            Livros          12     45  2023-02-01
+4                 Geladeira Frost  Eletrodomésticos           2   3200  2023-02-02
+5                   Tênis Corrida            Roupas           7    250  2023-02-02
+6              Cafeteira Elétrica  Eletrodomésticos           5    200  2023-02-02
+7                  Smartwatch Fit       Eletrônicos           6    600  2023-02-02
+8              Livro Data Science            Livros          10     70  2023-02-02
+9                   Sofá Retrátil            Móveis           1   2500  2023-02-03
+10                Mesa Escritório            Móveis           2    850  2023-02-03
+11                  Jaqueta Jeans            Roupas          10    180  2023-02-03
+12                  Headset Gamer       Eletrônicos           4    400  2023-02-03
+13  Livro Inteligência Artificial            Livros           6    120  2023-02-03
+14                    Smart TV 55       Eletrônicos           3   2800  2023-02-04
+15                  Cadeira Gamer            Móveis           5    900  2023-02-04
+16                    Calça Jeans            Roupas          18    150  2023-02-04
+17         Livro Machine Learning            Livros           8     95  2023-02-04
+18                      Air Fryer  Eletrodomésticos           4    600  2023-02-04
+19                   Notebook Pro       Eletrônicos           5   4500  2023-02-05
+20      Impressora Multifuncional       Eletrônicos           3    700  2023-02-05
+21                  Vestido Verão            Roupas          15    120  2023-02-05
+22                   Guarda-Roupa            Móveis           2   1800  2023-02-05
+23            Livro Deep Learning            Livros           7    150  2023-02-05,) e kwargs {}
+2025-09-03 22:54:24 | INFO     | log.py:27 - Função 'calculate_sales' retornou                           Produto         Categoria  Quantidade  Venda        Data  total_sale
+0                    Smartphone X       Eletrônicos           8   1200  2023-02-01        9600
+1                  Fone Bluetooth       Eletrônicos          15     80  2023-02-01        1200
+2                 Camiseta Básica            Roupas          20     25  2023-02-01         500
+3                    Livro Python            Livros          12     45  2023-02-01         540
+4                 Geladeira Frost  Eletrodomésticos           2   3200  2023-02-02        6400
+5                   Tênis Corrida            Roupas           7    250  2023-02-02        1750
+6              Cafeteira Elétrica  Eletrodomésticos           5    200  2023-02-02        1000
+7                  Smartwatch Fit       Eletrônicos           6    600  2023-02-02        3600
+8              Livro Data Science            Livros          10     70  2023-02-02         700
+9                   Sofá Retrátil            Móveis           1   2500  2023-02-03        2500
+10                Mesa Escritório            Móveis           2    850  2023-02-03        1700
+11                  Jaqueta Jeans            Roupas          10    180  2023-02-03        1800
+12                  Headset Gamer       Eletrônicos           4    400  2023-02-03        1600
+13  Livro Inteligência Artificial            Livros           6    120  2023-02-03         720
+14                    Smart TV 55       Eletrônicos           3   2800  2023-02-04        8400
+15                  Cadeira Gamer            Móveis           5    900  2023-02-04        4500
+16                    Calça Jeans            Roupas          18    150  2023-02-04        2700
+17         Livro Machine Learning            Livros           8     95  2023-02-04         760
+18                      Air Fryer  Eletrodomésticos           4    600  2023-02-04        2400
+19                   Notebook Pro       Eletrônicos           5   4500  2023-02-05       22500
+20      Impressora Multifuncional       Eletrônicos           3    700  2023-02-05        2100
+21                  Vestido Verão            Roupas          15    120  2023-02-05        1800
+22                   Guarda-Roupa            Móveis           2   1800  2023-02-05        3600
+23            Livro Deep Learning            Livros           7    150  2023-02-05        1050
+2025-09-03 22:54:24 | INFO     | log.py:24 - Chamando função 'save_df_as_parquet' com args (                          Produto         Categoria  Quantidade  Venda        Data  total_sale
+0                    Smartphone X       Eletrônicos           8   1200  2023-02-01        9600
+1                  Fone Bluetooth       Eletrônicos          15     80  2023-02-01        1200
+2                 Camiseta Básica            Roupas          20     25  2023-02-01         500
+3                    Livro Python            Livros          12     45  2023-02-01         540
+4                 Geladeira Frost  Eletrodomésticos           2   3200  2023-02-02        6400
+5                   Tênis Corrida            Roupas           7    250  2023-02-02        1750
+6              Cafeteira Elétrica  Eletrodomésticos           5    200  2023-02-02        1000
+7                  Smartwatch Fit       Eletrônicos           6    600  2023-02-02        3600
+8              Livro Data Science            Livros          10     70  2023-02-02         700
+9                   Sofá Retrátil            Móveis           1   2500  2023-02-03        2500
+10                Mesa Escritório            Móveis           2    850  2023-02-03        1700
+11                  Jaqueta Jeans            Roupas          10    180  2023-02-03        1800
+12                  Headset Gamer       Eletrônicos           4    400  2023-02-03        1600
+13  Livro Inteligência Artificial            Livros           6    120  2023-02-03         720
+14                    Smart TV 55       Eletrônicos           3   2800  2023-02-04        8400
+15                  Cadeira Gamer            Móveis           5    900  2023-02-04        4500
+16                    Calça Jeans            Roupas          18    150  2023-02-04        2700
+17         Livro Machine Learning            Livros           8     95  2023-02-04         760
+18                      Air Fryer  Eletrodomésticos           4    600  2023-02-04        2400
+19                   Notebook Pro       Eletrônicos           5   4500  2023-02-05       22500
+20      Impressora Multifuncional       Eletrônicos           3    700  2023-02-05        2100
+21                  Vestido Verão            Roupas          15    120  2023-02-05        1800
+22                   Guarda-Roupa            Móveis           2   1800  2023-02-05        3600
+23            Livro Deep Learning            Livros           7    150  2023-02-05        1050, 'C:\\Users\\rebec\\Documents\\estudos\\jornada_de_dados\\py\\aula-08-etl-json-parquet\\data/sales_data', 'parquet') e kwargs {}
+2025-09-03 22:54:24 | INFO     | log.py:27 - Função 'save_df_as_parquet' retornou None
+2025-09-03 22:54:24 | INFO     | log.py:27 - Função 'pipeline_calculate_sales_kpi' retornou None

@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from utils.etl import pipeline_calculate_sales_kpi
+from src.utils.etl import pipeline_calculate_sales_kpi
 
 path_dir = Path(__file__).resolve().parent.parent
 
